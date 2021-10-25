@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 10px;
+  }
+}
